@@ -4,6 +4,6 @@
     {"src":"app.py", "use":"@vercel/python"}
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/app.py" }
+    { "source": "/(.*)", "destination": "app.py" }
   ]
 }
