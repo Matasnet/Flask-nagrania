@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 def get_video_list():
     video_dir = 'static/videos'
